@@ -1,0 +1,13 @@
+.imgbg{
+    background-image: url('images/booksLab.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 150px;
+    
+}
+.title1{
+      color: white;  
+      
+    
+}

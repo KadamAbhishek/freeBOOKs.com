@@ -1,0 +1,36 @@
+<div class="container-fluid">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+
+    <div>
+      <a class="navbar-brand" routerLink="home" href="http://localhost:4200" >
+        <img src="../assets/book.png" alt="Logo" style="width:40px;" class="rounded-pill">{{space}} FreeBOOKs.com
+      </a>
+    </div>
+    <!-- Links -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+      <li class="nav-item">
+        <a class="nav-link " href="errr">Explore</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="errr">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="about">About US</a>
+      </li>
+      </ul> 
+   </div>
+    <form class="d-flex">
+      <input class="form-control me-2" type="text" placeholder="Search" id="input">
+      <button class="btn btn-primary" type="button" (click)="search()">Search</button>
+    </form>
+  
+</nav>
+</div>
+<br/><br/>
+<div>
+  <router-outlet></router-outlet>
+</div>
