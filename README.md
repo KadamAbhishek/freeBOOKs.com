@@ -10,7 +10,7 @@ basic project setup steps:
 	  npm install --force
    
 2. To compile Application :
-	  ng serve   OR
+	  ng serve   __OR__
 	  ng serve --open 
 
 ## Development server
